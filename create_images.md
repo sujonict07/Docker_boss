@@ -23,3 +23,7 @@ vim Dockerfile
 
 
 ![Dockerfile](https://github.com/sujonict07/Docker_boss/blob/master/Dockerfile)
+
+```
+docker build .
+```

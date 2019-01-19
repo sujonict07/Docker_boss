@@ -7,7 +7,14 @@ does when it start up.
 2. Docker Client : docker cli that we have been using at our terminal in turn.
 3. Docker Server: the Server what is doing a heavy lifting for us.Get instraction 
 from the configuration line and build a useable image that can then be used to start
-up a new container.
-4. Useable Image. 
+up a new container.  
+4. Useable Image.  
 ![create docker image](https://github.com/sujonict07/Docker_boss/blob/master/Create_image.png)
 
+Goal: Create a image for redis-server
+Commands:
+```
+mkdir redis-image
+cd redis-image
+code .
+```

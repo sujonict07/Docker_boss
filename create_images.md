@@ -26,4 +26,6 @@ vim Dockerfile
 
 ```
 docker build .
+or 
+docker build -t sujon/redis .
 ```

@@ -6,4 +6,7 @@ sudo echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu artful stab
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo apt update
 sudo apt install docker-ce
+sudo docker -v
+sudo apt install docker-compose
+sudo docker-compose --version
 sudo docker run hello-world

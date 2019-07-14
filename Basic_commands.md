@@ -29,3 +29,10 @@ its tell also how many space has been reclaimed by deleting those resources.
 ``` 
 docker system prune 
 ```
+
+Version Check.
+``` 
+docker-compose -v
+docker-compose --version
+docker-compose version
+```

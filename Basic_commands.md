@@ -36,3 +36,10 @@ docker-compose -v
 docker-compose --version
 docker-compose version
 ```
+
+
+Docker Images .
+``` 
+docker images
+docker images rmi
+```

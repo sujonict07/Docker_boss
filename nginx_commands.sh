@@ -21,17 +21,17 @@ server {
     listen 80;
     server_name <Server_ip>;
     location / {
-    root <base_location>/kutumbita-web/build;
+    root <base_location>/<location>/build;
         index index.html index.htm;
         try_files $uri $uri/ /index.html;
     }
     
     location /api {
-       proxy_pass http://<Server_ip>:5000;
+       proxy_pass http://<Server_ip>:2000;
     }
     
     location /android {
-       proxy_pass http://<Server_ip>:5100;
+       proxy_pass http://<Server_ip>:6000;
     }
 }
 # enable the file by creating a link from it to the 'site-enable' directory which 

@@ -43,3 +43,11 @@ Docker Images .
 docker images
 docker images rmi
 ```
+
+The answer is Docker's attach command
+
+```
+
+sudo docker exec -i -t loving_heisenberg /bin/bash #by Name
+
+```

@@ -1,3 +1,9 @@
+#### Image pull
+```
+sudo docker pull <image name> // like: sudo docker pull jenkins  
+
+```
+
 Container Create and Start commands: 
 ```
 docker create ...
